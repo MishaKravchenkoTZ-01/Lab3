@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LAB_3</title>
+    <style>
+        #userForm {
+            height: 150px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <td>
+                Name
+            </td>
+
+            <td>
+                <form id="name">
+                    <input type="text" name="name">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Topping
+            </td>
+            <td>
+                <form id="topping">
+                    <p>
+                        <input type="radio" value="Supreme" />Supreme
+                    </p>
+                    <p>
+                        <input type="radio" value="Vegetarian" />Vegetarian
+                    </p>
+                    <p>
+                        <input type="radio" value="Hawaiian" />Hawaiian
+                    </p>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pizza Sauce
+            </td>
+            <td>
+                <form id="Sauce">
+                    <Select name="sauce">
+                        <option value="1">Tomato</option>
+                        <option value="1">Cheese</option>
+                        <option value="1">Apple</option>
+                    </Select>
+                </form>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Optional extras
+            </td>
+            <td>
+                <form id="extras">
+                    <input type="checkbox" name="transport" /> Extra Cheese
+                    <input type="checkbox" name="transport" /> Gluten Free Base
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">
+                Delievery Instructions:
+                <fieldset>
+                    <input id="userForm" type="text" name="Instruction" size="55">
+                </fieldset>
+
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid rgb(0, 0, 0);
+    }
+</style>
+
+</html>
